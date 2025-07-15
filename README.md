@@ -47,11 +47,11 @@ src/
    cd AgroCart
    
 2. Update MongoDB connection in src/main/resources/application.properties:
-   '''bash
+   ```bash
    spring.data.mongodb.uri=mongodb://localhost:27017/agrocart
    
 3. Build and run:
-   '''bash
+   ```bash
    mvn clean install
    mvn spring-boot:run
 
